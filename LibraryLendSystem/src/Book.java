@@ -3,6 +3,10 @@
 //20181201
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 =======
 
 >>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
@@ -20,6 +24,7 @@ public class Book implements Comparable<Book>
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public boolean checkBook()
 	{
 		if (attachedLend == null)
@@ -30,6 +35,8 @@ public class Book implements Comparable<Book>
 			return false;
 		}
 =======
+=======
+>>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 	public boolean checkBook(int catalogueNumber)
 	{
 		if (this.attachedLend != null)
@@ -40,6 +47,9 @@ public class Book implements Comparable<Book>
 			return false;
 		}
 		return true;
+<<<<<<< HEAD
+>>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
+=======
 >>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 	}
 
@@ -76,6 +86,7 @@ public class Book implements Comparable<Book>
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public boolean returnBook()
 	{
 		if (this.attachedLend == null)
@@ -99,6 +110,8 @@ public class Book implements Comparable<Book>
 		}
 	}
 
+=======
+>>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 =======
 >>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 	@Override
