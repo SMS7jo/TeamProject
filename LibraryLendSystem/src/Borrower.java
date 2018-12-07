@@ -24,15 +24,7 @@ public class Borrower
 
 	public boolean checkName(String name)
 	{
-<<<<<<< HEAD
-<<<<<<< HEAD
 		if (this.name.equals((String) name))
-=======
-		if (this.name.equals(name))
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
-=======
-		if (this.name.equals(name))
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 		{
 			return false;
 		}
@@ -46,8 +38,6 @@ public class Borrower
 
 	public Borrower searchBorrower(String name)
 	{
-<<<<<<< HEAD
-<<<<<<< HEAD
 		if (this.name.equals((String) name))
 		{
 			return this;
@@ -55,25 +45,6 @@ public class Borrower
 		{
 			return null;
 		}
-=======
-=======
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
-		if (this.name == name)
-		{
-			if (this.checkBorrower() == true)
-			{
-				return this;
-			} else
-			{
-				System.out.println("이미 책을 대여중");
-				return null;
-			}
-		}
-		return null;
-<<<<<<< HEAD
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
-=======
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 	}
 
 	public boolean checkBorrower()

@@ -2,14 +2,6 @@
 //2017315007 윤성웅 2017315036 이찬희 2017330014 안태현 2017315057 호리우치 히로야
 //20181201
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
-=======
-
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 public class Book implements Comparable<Book>
 {
 	private int catalogueNumber;
@@ -23,8 +15,6 @@ public class Book implements Comparable<Book>
 		System.out.println("Title: " + title + "/ Author: " + author + " / Catalogue Number: " + catalogueNumber);
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	public boolean checkBook()
 	{
 		if (attachedLend == null)
@@ -34,23 +24,6 @@ public class Book implements Comparable<Book>
 		{
 			return false;
 		}
-=======
-=======
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
-	public boolean checkBook(int catalogueNumber)
-	{
-		if (this.attachedLend != null)
-		{
-			return false;
-		} else if (this.catalogueNumber != catalogueNumber)
-		{
-			return false;
-		}
-		return true;
-<<<<<<< HEAD
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
-=======
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 	}
 
 	public void attachLend(Lend lend)
@@ -85,8 +58,6 @@ public class Book implements Comparable<Book>
 		return this.catalogueNumber;
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	public boolean returnBook()
 	{
 		if (this.attachedLend == null)
@@ -110,10 +81,6 @@ public class Book implements Comparable<Book>
 		}
 	}
 
-=======
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
-=======
->>>>>>> 0c300114a3f4291fb35c566ad6c0be2282d27154
 	@Override
 	public int compareTo(Book book)
 	{
